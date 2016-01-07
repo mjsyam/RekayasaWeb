@@ -1,0 +1,20 @@
+#widthHeight    {
+    -webkit-transition:all 500ms;
+    -moz-transition:all 500ms;
+    transition:all 500ms;
+}  
+#widthHeight:hover  {
+    width:200px;
+    height:200px;
+    line-height:200px;
+}   
+#scale  {
+    -webkit-transition:all 500ms;
+    -moz-transition:all 500ms;
+    transition:all 500ms;
+}  
+#scale:hover    {
+    -webkit-transform:scale(2.0, 2.0);
+    -moz-transform:scale(2.0, 2.0);
+    transform:scale(2.0, 2.0);
+}   

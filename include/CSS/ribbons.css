@@ -1,0 +1,134 @@
+
+h1:after, h1:before,
+h2:after, h2:before,
+#twitter-follow:after, #twitter-follow:before
+{
+    content: '';
+    position: absolute;
+}
+
+h1{
+    text-align: left;
+    position: relative;
+    color: #000;
+    margin: 0 -30px 30px -30px;
+    padding: 10px 0 10px 10px;
+    text-shadow: 0 1px rgba(0,0,0,.8);
+    background: #c9cfd6;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 3px #000;
+   -moz-border-radius: 4px 4px 4px 4px; 
+}
+
+h1:before, h1:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    bottom: -10px;
+}
+
+h1:before
+{
+    border-width: 0 10px 10px 0;
+    border-right-color: #222;
+    left: 0;
+}
+
+h1:after
+{
+    border-width: 0 0 10px 10px;
+    border-left-color: #222;
+    right: 0;
+}
+h2
+{
+    font-family: verdana;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    color: #fff;
+    /*    text-shadow: 0 1px rgba(255,255,255,.8);*/
+    /*    background-color: #ccc;*/
+    background-color: #b60900;
+}
+
+h2.left
+{  
+    margin: 0 -20px 30px -26px;
+    padding: 10px 0 10px 30px; 
+    background-image: -moz-linear-gradient(left,rgba(255,255,255,0), #fff);
+    background-image: -webkit-linear-gradient(left,rgba(255,255,255,0), #fff);
+    background-image: -o-linear-gradient(left,rgba(255,255,255,0), #fff);
+    background-image: -ms-linear-gradient(left,rgba(255,255,255,0), #fff);
+    background-image: linear-gradient(left,rgba(255,255,255,0), #fff);
+}
+
+h2.right
+{
+    text-align: right; 
+    margin: 0 -26px 30px -20px;
+    padding: 10px 30px 10px 0; 
+    background-image: -moz-linear-gradient(left,#fff, rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(left,#fff, rgba(255,255,255,0));
+    background-image: -o-linear-gradient(left,#fff, rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(left,#fff, rgba(255,255,255,0));
+    background-image: linear-gradient(left,#fff, rgba(255,255,255,0));
+}    
+
+h2:before, h2:after
+{
+    border-style: solid;
+    border-color: transparent;
+    bottom: -6px;
+}
+
+h2.left:before
+{
+    border-width: 0 6px 6px 0;
+    border-right-color: #555;
+    left: 0;
+}
+
+h2.right:after
+{
+    border-width: 0 0 6px 6px;
+    border-left-color: #555;
+    right: 0;
+}  
+#twitter-follow
+{
+    font-size: .8em;
+    font-weight: bold;
+    position: relative;
+    margin: -26px 0 40px 0;
+    float: right;
+    color: #222;    
+    padding: 10px 30px; 
+    text-shadow: 0 1px rgba(255,255,255,.8);
+    background-color: #3bbadb;
+    background-image: -moz-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+    background-image: -o-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+    background-image: -ms-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+    -moz-box-shadow: 0 2px 2px #ccc;
+    -webkit-box-shadow: 0 2px 2px #ccc;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+#twitter-follow:hover
+{
+    background-color: #81d5f0;
+}    
+
+#twitter-follow:before
+{
+    left: -6px;
+    top: 0;
+    border-color: transparent #555 #555 transparent;
+    border-style: solid;                 
+}        
+
